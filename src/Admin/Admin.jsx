@@ -127,6 +127,7 @@ const Admin = () => {
                                     id={category}
                                     value={value}
                                     onChange={(e)=> setAmount({...amount, [category]: e.target.value})}
+                                    disabled={charge==="no"}
                                 />
                             ))}
                     </div>
