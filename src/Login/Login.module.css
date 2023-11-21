@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:  #030303;
+}
+
+.formcontainer{
+    max-width: 350px;
+    text-align: center;
+}
+
+.header {
+    font-size: 22px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.input {
+    width: 98%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.signbutton {
+    width: 100%;
+    margin-top: 15px;
+    height: 35px;
+    background-color: #6741D9;
+    border: 1px solid #6741D9;
+    color: white;
+    border-radius: 6px;
+}
+
+.signbutton:hover {
+    background-color: #F0C3F1;
+    border: 1px solid #F0C3F1;
+}
+
+.regbutton {
+    width: 100%;
+    margin-top: 8px;
+    border: none;
+    font-size: 13px;
+    background-color: #030303;
+    color: #FFFFFF;
+}
